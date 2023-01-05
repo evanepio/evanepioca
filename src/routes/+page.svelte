@@ -17,6 +17,3 @@
 
 </section>
 
-<style>
-
-</style>

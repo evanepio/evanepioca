@@ -14,7 +14,3 @@
 		<p class="text-center">&copy; 2023 Evan Porter</p>
 	</footer>
 </div>
-
-<style>
-
-</style>

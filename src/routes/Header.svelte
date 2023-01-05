@@ -18,7 +18,3 @@
 	</nav>
 
 </header>
-
-<style>
-
-</style>
