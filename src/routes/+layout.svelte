@@ -10,7 +10,7 @@
 		<slot />
 	</main>
 
-	<footer class="bg-blue-500 text-white font-bold">
+	<footer class="p-1 bg-blue-500 text-white font-bold">
 		<p class="text-center">&copy; 2023 Evan Porter</p>
 	</footer>
 </div>
