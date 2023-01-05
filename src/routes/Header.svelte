@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="bg-blue-500 text-white font-extrabold uppercase relative flex flex-wrap items-center justify-between">
+<header class="bg-blue-500 text-white font-extrabold uppercase relative flex flex-wrap items-center justify-between rounded-lg m-2">
 	<div class="px-3 py-2 text-xl w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 		evanepio.ca
 	</div>
