@@ -7,12 +7,12 @@
 		evanepio.ca
 	</div>
 	<nav class="lg:flex flex-grow items-center">
-		<ul class="flex flex-col lg:flex-row list-none ml-auto">
+		<ul class="flex flex-col lg:flex-row list-none ml-auto p-1">
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/" class="px-3 py-2 hover:opacity-75 flex items-center">Home</a>
+				<a href="/" class="px-3 py-2 hover:opacity-75 flex items-center border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-white">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class="px-3 py-2 hover:opacity-75 flex items-center">About</a>
+				<a href="/about" class="px-3 py-2 hover:opacity-75 flex items-center border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-white">About</a>
 			</li>
 		</ul>
 	</nav>
