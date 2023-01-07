@@ -14,8 +14,8 @@
 	<nav class="lg:flex flex-grow items-center">
 		<ul class="flex flex-col lg:flex-row list-none ml-auto p-1">
 			{#each links as link}
-			<li aria-current={$page.url.pathname === link.url ? 'page' : undefined}>
-				<a href="{link.url}" class="px-3 py-2 hover:opacity-75 flex items-center border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-white">{link.name}</a>
+			<li aria-current={$page.url.pathname === link.url ? 'page' : undefined} class="border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-white aria-[current=page]:border-yellow-500">
+				<a href="{link.url}" class="px-3 py-2 hover:opacity-75 flex items-center ">{link.name}</a>
 			</li>
 			{/each}
 		</ul>
