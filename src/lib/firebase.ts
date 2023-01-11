@@ -1,6 +1,6 @@
 import { initializeApp, type FirebaseApp } from 'firebase/app';
 import { Firestore, getFirestore, connectFirestoreEmulator } from 'firebase/firestore';
-import { getAuth, type Auth, connectAuthEmulator } from 'firebase/auth';
+import { getAuth, type Auth, connectAuthEmulator, GoogleAuthProvider } from 'firebase/auth';
 
 // Initialize Firebase
 const app: FirebaseApp = initializeApp(
@@ -17,6 +17,7 @@ const app: FirebaseApp = initializeApp(
 
 export const db: Firestore = getFirestore(app);
 export const auth: Auth = getAuth(app);
+export const provider = new GoogleAuthProvider()
 
 // For SvelteKit to build, must check if window is defined before trying to use it
 if (typeof window !== 'undefined') {
