@@ -3,7 +3,7 @@
 	import FirebaseApp from "sveltefire/FirebaseApp.svelte";
 	import User from "sveltefire/User.svelte";
 	import {  signInAnonymously } from "firebase/auth";
-
+	
 </script>
 
 <svelte:head>
@@ -13,7 +13,6 @@
 
 <div class="text-column">
 	<h1>Stuff</h1>
-
 
 	<FirebaseApp {auth} firestore={db}>
 		<User let:user>
