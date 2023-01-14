@@ -4,6 +4,12 @@
 	import User from 'sveltefire/User.svelte';
 	import Collection from 'sveltefire/Collection.svelte'
 	import { signInWithPopup, signOut } from 'firebase/auth';
+	import { type Query, query, collection, orderBy } from 'firebase/firestore';
+
+	const listQuery: Query = query(
+		collection(db, 'stuff'), 
+		orderBy('suggested_date', 'asc')
+	);
 </script>
 
 <svelte:head>
@@ -20,7 +26,7 @@
 				Hello, {user.displayName}!
 			</p>
 
-			<Collection ref="stuff" let:data let:count>
+			<Collection ref={listQuery} let:data let:count>
 				<p class="italic m-2">Fetched {count} documents</p>
 				
 				<dl class="border-solid border-yellow-500 bg-yellow-500 border-4 rounded m-4 p-5">
