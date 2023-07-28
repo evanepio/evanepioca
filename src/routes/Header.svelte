@@ -3,7 +3,6 @@
 
 	const links: { name: string; url: string }[] = [
 		{ name: 'Home', url: '/' },
-		{ name: 'Stuff', url: '/stuff' },
 		{ name: 'About', url: '/about' }
 	];
 </script>
