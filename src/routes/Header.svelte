@@ -3,6 +3,7 @@
 
 	const links: { name: string; url: string }[] = [
 		{ name: 'Home', url: '/' },
+		{ name: 'History', url: '/history' },
 		{ name: 'About', url: '/about' }
 	];
 </script>
@@ -20,7 +21,7 @@
 			{#each links as link}
 				<li
 					aria-current={$page.url.pathname === link.url ? 'page' : undefined}
-					class="border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-white aria-[current=page]:border-yellow-500"
+					class="border-solid border-white border-2 m-1 rounded-lg lg:border-blue-500 lg:hover:border-yellow-500 aria-[current=page]:border-white"
 				>
 					<a href={link.url} class="px-3 py-2 hover:opacity-75 flex items-center ">{link.name}</a>
 				</li>
