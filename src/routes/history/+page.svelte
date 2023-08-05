@@ -41,7 +41,7 @@
 		</thead>
 		<tbody>
 			{#each historyItems as item}
-				<tr class="bg-white even:bg-yellow-200">
+				<tr class="bg-white even:bg-yellow-100">
 					<td class="p-2">{item.employer}</td>
 					<td class="p-2">{item.start}</td>
 					<td class="p-2">{item.end}</td>
