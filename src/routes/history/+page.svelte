@@ -1,9 +1,15 @@
 <script lang="ts">
 	const historyItems: { employer: string; start: string; end: string; position: string }[] = [
 		{
+			employer: 'Levio',
+			start: 'December 1, 2023',
+			end: 'Ongoing',
+			position: 'Principal Consultant'
+		},
+		{
 			employer: 'Binary Star / Levio',
 			start: 'April 4, 2022',
-			end: 'Ongoing',
+			end: 'November 30, 2023',
 			position: 'Principal Consultant'
 		},
 		{
