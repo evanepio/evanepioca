@@ -1,19 +1,24 @@
 <svelte:head>
 	<title>About</title>
-	<meta name="description" content="About" />
+	<meta name="description" content="About Evan Porter" />
 </svelte:head>
 
 <div class="text-column">
 	<h1>About</h1>
 
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore quo quae maxime architecto
-		omnis dolores eos eveniet sapiente officiis ratione qui ab quaerat deserunt, at, reprehenderit
-		eum laboriosam tempore earum.
+		Evan Porter is a senior developer with over 15 years of experience. He primarily use Groovy and
+		Python, but also dabbles in JavaScript and TypeScript.
 	</p>
+
 	<p>
-		Rerum dignissimos iure itaque perferendis voluptatem quia neque, sit pariatur veniam explicabo
-		totam, voluptatum dolor maiores eos. Eos, rerum voluptatum nihil provident voluptatibus
-		architecto ex aspernatur temporibus pariatur exercitationem maiores!
+		Originally from Saint John, New Brunswick, Evan has been based in Stratford, Prince Edward
+		Island since 2007 (?).
+	</p>
+
+	<p>
+		Evan has also been one of the organizers of <a href="https://peiitalliance.com/pei-devs"
+			>PEI Devs</a
+		> (est. 2012), a meetup for Charlottetown area IT enthusiasts since 2016.
 	</p>
 </div>
